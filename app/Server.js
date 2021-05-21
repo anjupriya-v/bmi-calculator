@@ -48,6 +48,6 @@ res.send('<div style="display:flex;justify-content:center;flex-direction:column;
         console.log("Both Values Should be Positive");
     }
 });
-app.listen(3000,()=>{
+app.listen(process.env.PORT ||3000,()=>{
     console.log("Server is running at port 3000");
 });
