@@ -1,0 +1,529 @@
+
+body{
+background-image:url(../images/BackgroundImage2.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+}
+
+.heading{
+text-align:center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-bottom: none;
+font-weight:bold;
+}
+input{
+    border-top:none;
+    outline:none;
+    border-left: none;
+    border-right:none;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+nav{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+button{
+    outline:none;
+}
+@media (min-width:0px) and (max-width:240px) {
+    .card{
+        width:13.7em;
+        margin-top: 1em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 1.8em;
+    }
+    #weight{
+        margin-top:1.9em;
+    }
+    
+    #height{
+        margin-top:1.2em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:2.2em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:241px) and (max-width:280px) {
+    .card{
+        width:14.3em;
+        margin-top: 9em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 1.8em;
+    }
+    #weight{
+        margin-top:1.9em;
+        margin-left:0.5em;
+    }
+    
+    #height{
+        margin-top:1.2em;
+        margin-left:0.5em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:2.5em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:281px) and (max-width:320px) {
+    .card{
+        width:16.5em;
+        margin-top: 4em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 1.8em;
+    }
+    #weight{
+        margin-top:1.9em;
+        margin-left:0.7em;
+        width:13em;
+    }
+    
+    #height{
+        margin-top:1.2em;
+        margin-left:0.7em;
+        width:13em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:3.3em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:321px) and (max-width:360px) {
+    .card{
+        width:18.5em;
+        margin-top: 6em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 1.8em;
+    }
+    #weight{
+        margin-top:1.9em;
+        margin-left:1em;
+        width:14em;
+    }
+    
+    #height{
+        margin-top:1.2em;
+        margin-left:1em;
+        width:14em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:5em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:361px) and (max-width:384px) {
+    .card{
+        width:19.8em;
+        margin-top: 9em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 1.8em;
+    }
+    #weight{
+        margin-top:1.9em;
+        margin-left:1em;
+        width:15em;
+    }
+    
+    #height{
+        margin-top:1.2em;
+        margin-left:1em;
+        width:15em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:5em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:385px) and (max-width:415px) {
+    .card{
+        width:21.2em;
+        margin-top: 6em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 2em;
+    }
+    #weight{
+        margin-top:1.9em;
+        margin-left:1em;
+        width:16.3em;
+    }
+    
+    #height{
+        margin-top:1.2em;
+        margin-left:1em;
+        width:16.3em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:6em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:415px) and (max-width:480px) {
+    .card{
+        width:23.8em;
+        margin-top: 9em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 2em;
+    }
+    #weight{
+        margin-top:2.3em;
+        margin-left:1.8em;
+        width:18em;
+    }
+    
+    #height{
+        margin-top:1.5em;
+        margin-left:1.8em;
+        width:18em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:8em;
+    margin-bottom: 1.7em;
+    }
+}
+@media (min-width:481px) and (max-width:600px) {
+    .card{
+        width:27em;
+        margin-top: 6em;
+       
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 3em;
+    }
+    #weight{
+        margin-top:2.3em;
+        margin-left:2.5em;
+        width:18.8em;
+    }
+    
+    #height{
+        margin-top:1.5em;
+        margin-left:2.5em;
+        width:18.8em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.9em;
+    margin-left:6em;
+    margin-bottom: 2em;
+    font-size: 1.3em;
+    }
+}
+@media (min-width:601px) and (max-width:720px) {
+    .card{
+        width:25.5em;
+        margin-top: 4em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 2.3em;
+    }
+    #weight{
+        margin-top:2.3em;
+        margin-left:2em;
+        width:18.8em;
+    }
+    
+    #height{
+        margin-top:1.5em;
+        margin-left:2em;
+        width:18.8em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:2.2em;
+    margin-left:8em;
+    margin-bottom: 1.7em;
+    font-size: 1.1em;
+    }
+}
+
+@media (min-width:721px) and (max-width:1024px) {
+    
+    .card{
+
+        width:28em;
+        margin-top: 11em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 3em;
+    }
+    #weight{
+        margin-top:2.3em;
+        margin-left:2em;
+        width:21.5em;
+    }
+    
+    #height{
+        margin-top:1.5em;
+        margin-left:2em;
+        width:21.5em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:3em;
+    margin-left:6em;
+    margin-bottom: 1.7em;
+    font-size: 1.5em;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px) {
+     
+    .card{
+
+        width:28em;
+        margin-top: 7em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 3em;
+    }
+    #weight{
+        margin-top:2.3em;
+        margin-left:2em;
+        width:21.5em;
+    }
+    
+    #height{
+        margin-top:1.5em;
+        margin-left:2em;
+        width:21.5em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:3em;
+    margin-left:6em;
+    margin-bottom: 1.7em;
+    font-size: 1.5em;
+    }
+}
+@media (min-width:1441px){
+        
+     
+    .card{
+
+        width:28em;
+        margin-top: 7em;
+    }
+    .navbar-nav{
+        padding:0.5em;
+    }
+    .heading{
+    margin-top:0.6em;
+    margin-bottom: 0.7em;
+    font-size: 3em;
+    }
+    #weight{
+        margin-top:2.3em;
+        margin-left:2em;
+        width:21.5em;
+    }
+    
+    #height{
+        margin-top:1.5em;
+        margin-left:2em;
+        width:21.5em;
+    }
+    .dot {
+        height: 0.7em;
+        width: 0.7em;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      #first{
+          margin-left: 0.5em;
+      }
+      #button{
+        border-radius: 50px 50px 50px 50px;
+        margin-top:3em;
+    margin-left:6em;
+    margin-bottom: 1.7em;
+    font-size: 1.5em;
+    }
+}
