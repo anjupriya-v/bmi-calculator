@@ -4,7 +4,8 @@
   "description": "This is the simple BMI Tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
   },
   "author": "Anju Priya V",
   "license": "ISC",
