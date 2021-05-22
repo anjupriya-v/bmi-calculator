@@ -42,10 +42,10 @@ app.post('/',(req,res)=>{
         healthRisk="Very High Risk";
 
     }
-res.send('<div style="display:flex;justify-content:center;flex-direction:column;align-items:center;" ><h1 style="text-align:center;font-size:3em">Body Mass Index: '+ bmi+'</h1><h1 style="text-align:center;font-size:3em">BMI Category: '+bmiCategory+'</h1><h1 style="text-align:center;font-size:3em">Health Risk: '+healthRisk+'</h1></div>');
+res.send('<div style="display:flex;justify-content:center;flex-direction:column;align-items:center;" ><h1 style="text-align:center;font-size:3em">Your BMI is: '+ bmi+'</h1><h1 style="text-align:center;font-size:3em">BMI Category: '+bmiCategory+'</h1><h1 style="text-align:center;font-size:3em">Health Risk: '+healthRisk+'</h1></div>');
     }
     else{
-        console.log("Both Values Should be Positive");
+    res.send("<div style='display:flex;justify-content:center;flex-direction:column;align-items:center;'><h1 style='text-align:center;font-size:3em'>Please enter valid Height and Weight values</h1>")
     }
 });
 app.listen(process.env.PORT ||3000,()=>{
